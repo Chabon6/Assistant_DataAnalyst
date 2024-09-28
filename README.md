@@ -1,5 +1,5 @@
 # Assistant_DtatAnalyst
-以 Langchain 的 create_pandas_dataframe_agent 和一般的 LLMChain ，分別扮演「資料分析師」和「主管」實現 Conversational agent，以嘗試迭代方法解決問題。
+透過 Langchain 實現 Conversational agent，分別由「資料分析師」和「主管」兩個 Agent 扮演。透過迭代式的對話，深入挖掘數據洞察，為使用者提供更全面的分析想法。
 
 ### 迭代式問題解決：
 
