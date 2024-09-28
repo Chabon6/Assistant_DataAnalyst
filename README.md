@@ -1,2 +1,13 @@
 # Assistant_DtatAnalyst
-以 Langchain 的 create_pandas_dataframe_agent 和一般的 LLMChain ，分別作為"資料分析師"和"主管"進行 LLM 的互動，以進行更為完整的資料分析。
+以 Langchain 的 create_pandas_dataframe_agent 和一般的 LLMChain ，分別扮演「資料分析師」和「主管」實現 Conversational agent，以嘗試迭代方法解決問題。
+
+### 迭代式問題解決：
+
+* 逐步深入： 主管和分析師通過不斷的對話，逐步深入問題的核心，挖掘出更深層次的洞察。
+* 靈活性： 這種方式可以適應各種複雜的問題，並提供更全面的解決方案。
+
+### 為什麼不直接用一個 LLM 來完成所有任務？
+
+* 角色分工： 將任務分給不同的 LLM 可以模擬更真實的協作過程，也更容易管理。
+* 專注領域： 不同的 LLM 可以專注於不同的任務，例如，分析師專注於數據分析，主管專注於策略制定。
+* 提高可靠性： 將任務分給不同的 LLM 可以降低單點故障的風險。
